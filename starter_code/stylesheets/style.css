@@ -8,3 +8,373 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    background-color: #540B51;
+    max-width: fit-content;
+    margin: 0;
+}
+
+button {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bigger-screen-img {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh;
+    border-bottom: solid white 0.5px;
+}
+
+nav .logo {
+    width: 20vw;
+}
+
+nav ul {
+    display: none;
+}
+
+nav button {
+    background-color: #540B51;
+    border-style: none;
+}
+
+nav button img {
+    width: 5vw;
+    padding: 0 1vw;
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.upper-header {
+    margin: 2vh 3vw;
+}
+
+.header-text {
+    color: #ECB12F;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3vh;
+    margin: 4vh 2vw
+}
+
+.header-buttons button {
+    height: 7vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.header-buttons button img {
+    height: 80%;
+    background-color: white;
+    margin: 2%;
+    object-fit: contain;
+}
+
+.signup-button {
+    color: #540B51;
+}
+
+.google-button {
+    background-color: #4285F4;
+    color: white;
+}
+
+.slack-screenshot {
+    height: 50vh;
+}
+
+main {
+    background-color: #F3EAE2;
+}
+
+.trust {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2vh 4vw;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.trust div {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trust div img {
+    height: 4vh;
+    padding: 3% 2%;
+}
+
+.together {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.together img {
+    width: 100vw;
+}
+
+.together-text {
+    padding: 5vw;;
+}
+
+a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+.choose img {
+    width: 100vw;
+}
+
+.choose-text {
+    padding: 5vw;;
+}
+
+.move {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.move img {
+    width: 100vw;
+}
+
+.move-text {
+    padding: 5vw;;
+}
+
+.teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 2vh 5vw;
+}
+
+.teams-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.teams-buttons button {
+    height: 7vh;
+    width: 90vw;
+    text-align: center;
+    margin: 3% 3%;
+}
+
+.button-meet {
+    background-color: #540B51;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.button-talk {
+    background-color: white;
+    color: #540B51;
+    border: solid #540B51 1px;
+}
+
+.teams ul {
+    list-style: none;
+    font-weight: 600;
+}
+
+.teams ul span {
+    color: #540B51;
+    font-size: 2.5rem;
+}
+
+.welcome {
+    background-color: #540B51;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2vh 5vw;
+}
+
+.welcome h3 {
+    font-size: 1.8rem;
+}
+
+.welcome button {
+    height: 7vh;
+    width: 90vw;
+    text-align: center;
+    margin: 3% 3%;
+}
+
+.upper-button {
+    background-color: #540B51;
+    color: white;
+    border: solid white 1px;
+}
+
+.lower-button {
+    background-color: white;
+    color: #540B51;
+    border: none;
+}
+
+footer {
+    background-color: white;
+    padding: 2vh 5vw;
+}
+
+footer img{
+    width: 12vw;
+}
+
+.menu {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer ul {
+    font-size: 0.8rem;
+    list-style: none;
+    margin: 1vh 1.5vw;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 1.5vh 0;
+}
+
+.download-icon {
+    width: 5%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+header {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 3vw;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+.header-buttons button {
+    height: 5vh;
+}
+
+.slack-screenshot {
+    height: 20vh;
+    width: 100%;
+}
+
+.trust div {
+    flex-flow: nowrap;
+    justify-content: center;
+}
+
+.trust div img {
+    height: 3vh;
+    padding: 3% 2%;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.bigger-screen-img {
+    display: inline;
+}
+
+.together-text , .choose-text , .move-text {
+    padding: 5vw 20vw;
+}
+
+.teams-buttons {
+    flex-direction: row;
+}
+
+.teams-buttons button {
+    height: 7vh;
+    width: 40vw;
+    text-align: center;
+    margin: 3% 3%;
+}
+
+.teams ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.subfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    justify-content: left;
+    gap: 40px;
+}
+
+.download-icon {
+    width: 10%;
+}
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+}
+
+@media screen and (min-width:1440px) {
+
+}
